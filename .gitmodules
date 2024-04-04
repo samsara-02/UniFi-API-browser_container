@@ -1,0 +1,3 @@
+[submodule "UniFi-API-browser"]
+	path = UniFi-API-browser
+	url = https://github.com/Art-of-Wifi/UniFi-API-browser
