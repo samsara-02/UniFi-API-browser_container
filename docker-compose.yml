@@ -1,0 +1,12 @@
+version: '3'
+services:
+  unifi-api-browser:
+    build: .
+    ports:
+      - "8000:80"
+    environment:
+      - UNIFI_HOST
+      - UNIFI_PORT
+      - UNIFI_USER
+      - UNIFI_PASS
+      - UNIFI_NAME
